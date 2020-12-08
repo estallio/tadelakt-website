@@ -1,0 +1,35 @@
+@import reset.scss
+@import ~include-media/dist/_include-media.scss
+@import variables
+
+*
+  box-sizing: border-box
+
+a
+  text-decoration: none
+  cursor: pointer
+
+html, body
+  font-family: $defaultFont
+  color: $defaultFontColor
+  font-size: $defaultFontSize
+  letter-spacing: $defaultLetterSpacing
+  line-height: $defaultLineHeight
+  @include media(">=desktop")
+    font-size: $defaultDesktopFontSize
+    letter-spacing: $defaultDesktopLineHeight
+    line-height: $defaultDesktopLetterSpacing
+
+h2
+  color: $h2Color
+  font-size: $h2FontSize
+  line-height: $h2FontSize * 1.25
+  text-align: center
+  margin-top: 30px
+
+h3
+  color: $h3Color
+  font-size: $h3FontSize
+  line-height: $h3FontSize * 1.25
+  text-align: center
+  margin-top: 30px
