@@ -11,10 +11,10 @@ const FooterNavigation = () => (
         <span>Manfred Wegenschimmel</span>
       </li>
       <li>
-        <span>Geinberg 123</span>
+        <span>Florianigasse 5, 4943 Geinberg</span>
       </li>
       <li>
-        <span>+436692839050</span>
+        <span>Tel.: +436692839050</span>
       </li>
       <li>IBAN: AT20 4480 0300 1690 0100</li>
     </ul>
