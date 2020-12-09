@@ -1,0 +1,28 @@
+@import styles/variables.sass
+@import ~include-media/dist/_include-media.scss
+
+.footerNavigation
+  margin-top: 30px
+  @include media(">bigPhone")
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: center
+    margin-top: 0
+
+.footerNavigation ul
+  list-style: none
+  line-height: $defaultLineHeight * 1.4
+  margin: 0
+  padding: 0
+  @include media(">bigPhone")
+    width: 50%
+    font-size: $defaultFontSize
+
+.footerNavigation li
+  display: block
+  width: 100%
+
+.menuEntry
+  text-decoration: underline
+  color: #333

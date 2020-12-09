@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 216 138" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.319156,0,0,2.3525,-96.525,-98.9342)">
+        <g transform="matrix(0.992659,0,0,0.0970224,-1469.64,11.9792)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+        <g transform="matrix(0.992659,0,0,0.0970224,-1469.64,24.1657)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+        <g transform="matrix(0.992659,0,0,0.0970224,-1469.64,36.2451)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+        <g transform="matrix(0.413207,0,0,0.0968625,-307.18,18.2187)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+        <g transform="matrix(0.41688,0,0,0.0968625,-175.341,18.2239)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+        <g transform="matrix(0.413207,0,0,0.0968625,-307.18,30.1507)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+        <g transform="matrix(0.41688,0,0,0.0968625,-175.341,30.1558)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+        <g transform="matrix(0.413207,0,0,0.0968625,-307.18,42.0893)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+        <g transform="matrix(0.41688,0,0,0.0968625,-175.341,42.0944)">
+            <rect x="2006.13" y="309.987" width="241.775" height="32.161" style="fill:rgb(51,51,51);fill-opacity:0.8;"/>
+        </g>
+    </g>
+    <g transform="matrix(1.05803,0,0,1.05803,-938.241,-47.6011)">
+        <g transform="matrix(0.9999,0,0,1,950.242,149.413)">
+            <text x="0px" y="0px" style="font-family:'Korolev-Medium', 'Korolev';font-weight:500;font-size:27px;fill:rgb(51,51,51);">m</text>
+        </g>
+        <g transform="matrix(1,0,0,1,984.446,149.413)">
+            <text x="0px" y="0px" style="font-family:'Korolev-Medium', 'Korolev';font-weight:500;font-size:27px;fill:rgb(51,51,51);">a</text>
+        </g>
+        <g transform="matrix(1,0,0,1,1013.03,149.413)">
+            <text x="0px" y="0px" style="font-family:'Korolev-Medium', 'Korolev';font-weight:500;font-size:27px;fill:rgb(51,51,51);">o</text>
+        </g>
+    </g>
+    <g transform="matrix(1.18085,0,0,1.0735,-1053.18,-37.7395)">
+        <g>
+            <g transform="matrix(1,0,0,1,891.108,163.248)">
+                <text x="0px" y="0px" style="font-family:'Abel-Regular', 'Abel';font-size:13.017px;fill:rgb(51,51,51);">mineralische</text>
+            </g>
+            <g transform="matrix(1,0,0,1,958.445,163.248)">
+                <text x="0px" y="0px" style="font-family:'Abel-Regular', 'Abel';font-size:13.017px;fill:rgb(51,51,51);">architektur</text>
+            </g>
+            <g transform="matrix(1,0,0,1,1017.63,163.248)">
+                <text x="0px" y="0px" style="font-family:'Abel-Regular', 'Abel';font-size:13.017px;fill:rgb(51,51,51);">oberflächen</text>
+            </g>
+        </g>
+    </g>
+</svg>
