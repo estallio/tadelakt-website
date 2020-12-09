@@ -19,7 +19,7 @@ const Layout = ({
     <HeadDependencies />
     <div className={styles.site}>
       {renderHeader ? (
-        <Header backgroundImage={headerBackground} title={title} />
+        <Header background={headerBackground} title={title} />
       ) : null}
       <div id="main" className={styles.main}>
         <div className={styles.center}>{children}</div>

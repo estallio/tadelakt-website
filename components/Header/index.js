@@ -10,7 +10,7 @@ import MainNavigation from '../MainNavigation';
 
 import styles from './Header.module.sass';
 
-const Header = ({ backgroundImage = null, title = null, children = [] }) => (
+const Header = ({ background = null, title = null, children = [] }) => (
   <>
     <div
       className={classNames(
@@ -18,8 +18,8 @@ const Header = ({ backgroundImage = null, title = null, children = [] }) => (
         !_.isEmpty(children) ? styles.banner : null
       )}
       style={
-        !_.isEmpty(children) && backgroundImage
-          ? { backgroundImage: backgroundImage }
+        !_.isEmpty(children) && background
+          ? { backgroundImage: background }
           : {}
       }
     >
@@ -36,7 +36,7 @@ const Header = ({ backgroundImage = null, title = null, children = [] }) => (
     {_.isEmpty(children) && (
       <div
         className={styles.titleBar}
-        style={backgroundImage ? { backgroundImage: backgroundImage } : {}}
+        style={background ? { background: background } : {}}
       >
         <div className={styles.inner}>{title}</div>
       </div>

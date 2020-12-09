@@ -135,6 +135,14 @@ h3.big
   @include media(">bigPhone")
     margin-bottom: 0
 
+.mobileMarginTop
+  margin-top: 50px
+  @include media(">bigPhone")
+    margin-top: 30px
+  @include media(">tablet")
+    margin-top: 0
+
+
 .smallImage img
   width: 50%
   @include media(">bigPhone")
@@ -165,7 +173,7 @@ h3.big
 
 .icons
   & span
-    @include media(">tablet")
+    @include media(">=tablet")
       margin-left: 5px
   & a
     text-decoration: underline
@@ -174,20 +182,25 @@ h3.big
     &:first-child
       margin-top: 0
   text-align: center
-  @include media(">tablet")
+  @include media(">=tablet")
     padding-left: 80px
     text-align: left
-  @include media(">desktop")
+  @include media(">=desktop")
     padding-left: 100px
-  & img
-    width: 30px
-    @include media(">tablet")
-      display: inline
-    vertical-align: middle
-    box-sizing: content-box
-    padding: 10px
 
+.iconText
+  @include media(">=tablet")
+    margin-top: 50px
+    margin-bottom: 50px
 
+.icon
+  color: $primaryColor
+  width: 35px
+  margin: 0 auto
+  margin-bottom: 2px
+  @include media(">=tablet")
+    margin-right: 20px
+    float: left
 
 
 .myMasonryGrid
