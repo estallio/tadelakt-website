@@ -17,7 +17,9 @@
   padding: 0
   @include media(">bigPhone")
     width: 50%
-    font-size: $defaultFontSize
+    font-size: $defaultDesktopFontSize / 1.075
+    line-height: $defaultDesktopLineHeight * 1.075
+    letter-spacing: $defaultDesktopLetterSpacing
 
 .footerNavigation li
   display: block
@@ -25,4 +27,4 @@
 
 .menuEntry
   text-decoration: underline
-  color: #333
+  color: #777777
