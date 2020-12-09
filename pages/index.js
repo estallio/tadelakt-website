@@ -34,7 +34,7 @@ const Home = () => (
           <p>
             Wir, Manfred Wegenschimmel und Reinhold Bartosch, haben uns ganz der
             Herstellung und Bearbeitung mineralischer Architektur-Oberflächen
-            verschrieben. Unsere Arbeit umfasst dabei die Beratung, Planung und
+            verschrieben. Unsere Arbeit umfasst die Beratung, Planung und
             Umsetzung kleinerer und größerer Projekte. Wir bieten unsere Dienste
             vor allem im Bezirk Braunau am Inn und Ried im Innkreis an, unser
             Kundenkreis reicht jedoch bis nach Linz und Salzburg. Durch unsere
@@ -129,7 +129,7 @@ const Home = () => (
             </span>{' '}
             haben für uns eine inspierierende Bedeutung. Die Aussagen und vor
             allem das Urteil, dass sich Dinge nicht erschöpfen können, geben der
-            Kunst und dem Schaffen eine erweiterte Bedeutung. Aus diesem Kontext
+            Kunst und dem Schaffen eine erweiterte Bedeutung. Aus diesem Grund
             kann man das Symbol aus{' '}
             <span className={styles.h2downText}>
               I Ging - Vor der Vollendung. Gelingen.
