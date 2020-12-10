@@ -70,7 +70,7 @@ const Arbeit = ({ images }) => {
         <div className={classNames(styles.container, styles.centerChilds)}>
           <div className={classNames(styles.twoThird, styles.left)}>
             <h2>Arbeit und Projekte</h2>
-            <p className={styles.subText}>ein Ausschnitt</p>
+            <p className={styles.subText}>Ein Ausschnitt</p>
             <p>
               Auf dieser Seite finden Sie Bilder einiger unserer Projekte und
               Arbeiten. Neben fertigen Bäder und verzierten Wänden finden Sie
