@@ -17,7 +17,11 @@ const Home = () => (
     />
     <Header>
       <div className={styles.center}>
-        <img src="/theme/images/header-logo.svg" alt="I-Ging 64 Symbol" />
+        <img
+          src="/theme/images/header-logo.png"
+          alt="I-Ging 64 Symbol"
+          style={{ width: '100%' }}
+        />
       </div>
     </Header>
     <Layout renderHeader={false}>
@@ -110,7 +114,7 @@ const Home = () => (
             styles.smallerImage
           )}
         >
-          <img src="/images/i-ging-64-logo.svg" />
+          <img src="/images/i-ging-64-logo.png" />
         </div>
         <div className={classNames(styles.twoThird, styles.left)}>
           <div className={styles.igingText}>
