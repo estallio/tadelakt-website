@@ -18,13 +18,8 @@ import path from 'path';
 import fs from 'fs';
 
 export async function getStaticProps() {
-  const tadelaktDirectory = path.join(
-    process.cwd(),
-    'public',
-    'images',
-    'tadelakt'
-  );
-  const filenames = fs.readdirSync(tadelaktDirectory);
+  const directory = path.join(process.cwd(), 'public', 'images', 'tadelakt');
+  const filenames = fs.readdirSync(directory);
   const imageFileNames = filenames.filter((filename) =>
     filename.match(/\.(jpe?g|jpg|png|gif|svg)$/i)
   );
