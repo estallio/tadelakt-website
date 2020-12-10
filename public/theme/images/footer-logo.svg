@@ -32,13 +32,13 @@
     </g>
     <g transform="matrix(1.05803,0,0,1.05803,-938.241,-47.6011)">
         <g transform="matrix(1.25488,0,0,1.22779,885.524,174.145)">
-            <text x="0px" y="0px" style="font-family:'Korolev-Medium', 'Korolev';font-weight:500;font-size:27px;fill:rgb(119,119,119);">m</text>
+            <text x="0px" y="0px" style="font-family: 'Abel', sans-serif;font-size:27px;fill:rgb(119,119,119);">m</text>
         </g>
         <g transform="matrix(1.25501,0,0,1.22779,928.45,174.145)">
-            <text x="0px" y="0px" style="font-family:'Korolev-Medium', 'Korolev';font-weight:500;font-size:27px;fill:rgb(119,119,119);">a</text>
+            <text x="0px" y="0px" style="font-family: 'Abel', sans-serif;font-size:27px;fill:rgb(119,119,119);">a</text>
         </g>
         <g transform="matrix(1.25501,0,0,1.22779,964.323,174.145)">
-            <text x="0px" y="0px" style="font-family:'Korolev-Medium', 'Korolev';font-weight:500;font-size:27px;fill:rgb(119,119,119);">o</text>
+            <text x="0px" y="0px" style="font-family: 'Abel', sans-serif;font-size:27px;fill:rgb(119,119,119);">o</text>
         </g>
     </g>
 </svg>
