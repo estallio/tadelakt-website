@@ -20,9 +20,9 @@ const FooterNavigation = () => (
     </ul>
     <ul>
       <li>
-        <Link href="/agb" defaultClass={styles.menuEntry}>
+        <Link href="/ueber-uns" defaultClass={styles.menuEntry}>
           <a>
-            <span>AGB</span>
+            <span>Über uns</span>
           </a>
         </Link>
       </li>

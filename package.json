@@ -22,7 +22,9 @@
     "next-seo": "^4.17.0",
     "prop-types": "^15.7.2",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-image-lightbox": "^5.1.1",
+    "sharp": "^0.26.3"
   },
   "devDependencies": {
     "eslint": "^7.15.0",
@@ -33,8 +35,10 @@
     "imagemin-mozjpeg": "^9.0.0",
     "imagemin-optipng": "^8.0.0",
     "imagemin-svgo": "^8.0.0",
+    "jimp": "^0.16.1",
     "next-optimized-images": "^2.6.2",
     "prettier": "^2.2.1",
+    "responsive-loader": "^2.2.1",
     "sass": "^1.30.0"
   }
 }

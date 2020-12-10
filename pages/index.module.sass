@@ -209,6 +209,31 @@ h3.big
     margin-right: 10px
     float: left
 
+.gridItem
+  width: calc(50% - 10px)
+  float: left
+  margin-left: 10px
+  margin-bottom: 10px
+  @include media(">=iphone6")
+    width: calc(33% - 10px)
+  @include media(">=tablet")
+    width: calc(25% - 10px)
+
+.gridImage
+  margin: 0 auto
+  display: block
+  width: 150px
+  height: 150px
+  object-fit: cover
+  @include media(">=iphone6")
+    width: 175px
+    height: 175px
+  @include media(">=tablet")
+    width: 185px
+    height: 185px
+  @include media(">=desktop")
+    width: 200px
+    height: 200px
 
 .myMasonryGrid
   display: flex
