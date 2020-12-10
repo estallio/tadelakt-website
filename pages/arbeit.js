@@ -81,6 +81,10 @@ const Arbeit = ({ images }) => {
               uns gerne eine Nachricht hinterlassen oder direkt anrufen, die
               Telefonnummer finden Sie unter dem Reiter Kontakt.
             </p>
+            <p>
+              Die Bilder sind nach Name geordnet und können per Klick vergrößert
+              werden.
+            </p>
           </div>
         </div>
         {isOpen && (
@@ -102,7 +106,14 @@ const Arbeit = ({ images }) => {
           />
         )}
         <br />
-        <div style={{ paddingBottom: 40, overflow: 'auto' }}>
+        <div
+          style={{
+            position: 'relative',
+            width: '100%',
+            paddingBottom: 50,
+            overflow: 'auto',
+          }}
+        >
           {images.map((item, i) => (
             <div key={i} className={styles.gridItem}>
               <a

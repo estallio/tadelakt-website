@@ -107,7 +107,14 @@ const Lehmputz = ({ images }) => {
           />
         )}
         <br />
-        <div style={{ paddingBottom: 40, overflow: 'auto' }}>
+        <div
+          style={{
+            position: 'relative',
+            width: '100%',
+            paddingBottom: 50,
+            overflow: 'auto',
+          }}
+        >
           {images.map((item, i) => (
             <div key={i} className={styles.gridItem}>
               <a
