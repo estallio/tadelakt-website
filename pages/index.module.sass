@@ -27,13 +27,17 @@
     flex: 3
     & h3
       margin: 0
-  @include media(">iphone6")
+    @include media(">=iphone6")
+      padding-left: 10px
+    @include media(">=iphone6Plus")
+      padding-left: 15px
+    @include media(">=bigPhone")
+      padding-left: 20px
+    @include media(">tablet")
+      padding-left: 0
+  @include media(">=iphone6Plus")
     flex-direction: row
-    column-gap: 20px
     padding: 15px
-  @include media(">bigPhone")
-    column-gap: 30px
-    padding: 20px
 
 
 .container
