@@ -16,7 +16,9 @@ const FooterNavigation = () => (
       <li>
         <span>Tel.: +436692839050</span>
       </li>
-      <li>IBAN: AT20 4480 0300 1690 0100</li>
+      <li>
+        <span>IBAN: AT20 4480 0300 1690 0100</span>
+      </li>
     </ul>
     <ul>
       <li>

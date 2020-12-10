@@ -10,12 +10,15 @@
     justify-content: center
     margin-top: 0
 
+.footerNavigation a
+  color: inherit
+
 .footerNavigation ul
   list-style: none
   line-height: $defaultLineHeight * 1.4
   margin: 0
   padding: 0
-  @include media(">bigPhone")
+  @include media(">=bigPhone")
     width: 40%
     &:first-child
       width: 60%

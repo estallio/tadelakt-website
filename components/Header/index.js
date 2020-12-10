@@ -38,7 +38,9 @@ const Header = ({ background = null, title = null, children = [] }) => (
         className={styles.titleBar}
         style={background ? { background: background } : {}}
       >
-        <div className={styles.inner}>{title}</div>
+        <div className={styles.inner}>
+          <span>{title}</span>
+        </div>
       </div>
     )}
   </>

@@ -13,13 +13,13 @@ const Logo = ({ simple = false }) => (
       <a>
         {simple ? (
           <img
-            style={{ width: '100%' }}
+            style={{ width: '105%' }}
             src="/theme/images/logo-simple.png"
             alt="Vereinfachtes Logo von mao - mineralische architektur oberflächen auf tadelakt.at"
           />
         ) : (
           <img
-            style={{ width: '100%' }}
+            style={{ width: '105%' }}
             src="/theme/images/logo.png"
             alt="Logo von mao - mineralische architektur oberflächen auf tadelakt.at"
           />
