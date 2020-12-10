@@ -14,7 +14,9 @@ const FooterNavigation = () => (
         <span>Florianigasse 5, 4943 Geinberg</span>
       </li>
       <li>
-        <span>Tel.: +436692839050</span>
+        <span>
+          <a href="tel:+436766258629">Tel.: +43 676 625 86 29</a>
+        </span>
       </li>
       <li>
         <span>IBAN: AT20 4480 0300 1690 0100</span>

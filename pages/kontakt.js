@@ -60,15 +60,15 @@ const Contact = () => (
           className={classNames(styles.icons, styles.twoThird, styles.right)}
         >
           <p className={styles.iconText}>
-            <a>
+            <a href="tel:+436766258629">
               <span className={styles.icon}>
                 <FontAwesomeIcon icon={faPhoneSquareAlt} />
               </span>
-              <span>+43 66023 182305</span>
+              <span>+43 676 625 86 29</span>
             </a>
           </p>
           <p className={styles.iconText}>
-            <a>
+            <a href="mailto:manfred.wegenschimmel@gmail.com">
               <span className={styles.icon}>
                 <FontAwesomeIcon icon={faEnvelopeSquare} />
               </span>
@@ -76,27 +76,27 @@ const Contact = () => (
             </a>
           </p>
           <p className={styles.iconText}>
-            <a>
+            <a href="https://wa.me/436766258629">
               <span className={styles.icon}>
                 <FontAwesomeIcon icon={faWhatsappSquare} />
               </span>
-              <span>+43 32403 32423</span>
+              <span>+43 676 625 86 29</span>
             </a>
           </p>
           <p className={styles.iconText}>
-            <a>
+            <a href="https://www.facebook.com/mwegenschimmel">
               <span className={styles.icon}>
                 <FontAwesomeIcon icon={faFacebookSquare} />
               </span>
-              <span>@tadelakt</span>
+              <span>@mwegenschimmel</span>
             </a>
           </p>
           <p className={styles.iconText}>
-            <a>
+            <a href="https://www.instagram.com/manfred_wegenschimmel">
               <span className={styles.icon}>
                 <FontAwesomeIcon icon={faInstagramSquare} />
               </span>
-              <span>@tadelakt</span>
+              <span>@manfred_wegenschimmel</span>
             </a>
           </p>
         </div>
