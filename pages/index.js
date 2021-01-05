@@ -32,22 +32,6 @@ const Home = () => (
           styles.centerChilds
         )}
       >
-        <div className={classNames(styles.twoThird, styles.left)}>
-          <h2>Willkommen auf unserer Website!</h2>
-          <p className={styles.subText}>Handwerk und Kunst vereint</p>
-          <p>
-            Wir, Manfred Wegenschimmel und Reinhold Bartosch, haben uns ganz der
-            Herstellung und Bearbeitung mineralischer Architektur-Oberflächen
-            verschrieben. Unsere Arbeit umfasst die Beratung, Planung und
-            Umsetzung kleinerer und größerer Projekte. Wir bieten unsere Dienste
-            vor allem im Bezirk Braunau am Inn und Ried im Innkreis an, unser
-            Kundenkreis reicht jedoch bis nach Linz und Salzburg. Durch unsere
-            langjährige Erfahrung sind wir spezialisiert auf Tadelakt, Lehmputz
-            und die Herstellung und Restaurierung alter mineralischer
-            Oberflächen. Welche Eigenschaften Tadelakt oder Lehmputz haben kann
-            erfahren Sie in diesen drei Punkten:
-          </p>
-        </div>
       </div>
       <div className={styles.container}>
         <Link href="/tadelakt">
@@ -98,49 +82,6 @@ const Home = () => (
             </div>
           </a>
         </Link>
-      </div>
-      <div
-        className={classNames(
-          styles.container,
-          styles.rowContainer,
-          styles.centerChilds,
-          styles.extraSpace
-        )}
-      >
-        <div
-          className={classNames(
-            styles.oneThird,
-            styles.right,
-            styles.smallerImage
-          )}
-        >
-          <img src="/images/i-ging-64-logo.png" />
-        </div>
-        <div className={classNames(styles.twoThird, styles.left)}>
-          <div className={styles.igingText}>
-            <h2>
-              I-Ging 64<sup className={styles.h2upper}>We Dsi</sup>
-            </h2>
-            <p className={styles.subText}>Vor der Vollendung</p>
-          </div>
-          <span className={styles.h2downText}>
-            ...denn die Dinge erschöpfen sich nicht...
-          </span>
-          <p>
-            Die Botschafen in{' '}
-            <span className={styles.h2downText}>
-              I Ging - Das Buch der Wandlungen
-            </span>{' '}
-            haben für uns eine inspierierende Bedeutung. Die Aussagen und vor
-            allem das Urteil, dass sich Dinge nicht erschöpfen können, geben der
-            Kunst und dem Schaffen eine erweiterte Bedeutung. Aus diesem Grund
-            kann man das Symbol aus{' '}
-            <span className={styles.h2downText}>
-              I Ging - Vor der Vollendung. Gelingen.
-            </span>{' '}
-            auch in unserem Logo wiederfinden.
-          </p>
-        </div>
       </div>
     </Layout>
   </>

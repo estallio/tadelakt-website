@@ -49,22 +49,11 @@ const Arbeit = ({ images }) => {
       />
       <Layout
         title="Arbeit und Projekte"
-        headerBackground={`#7b2614 url("data:image/svg+xml,%3Csvg width='84' height='48' viewBox='0 0 84 48' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h12v6H0V0zm28 8h12v6H28V8zm14-8h12v6H42V0zm14 0h12v6H56V0zm0 8h12v6H56V8zM42 8h12v6H42V8zm0 16h12v6H42v-6zm14-8h12v6H56v-6zm14 0h12v6H70v-6zm0-16h12v6H70V0zM28 32h12v6H28v-6zM14 16h12v6H14v-6zM0 24h12v6H0v-6zm0 8h12v6H0v-6zm14 0h12v6H14v-6zm14 8h12v6H28v-6zm-14 0h12v6H14v-6zm28 0h12v6H42v-6zm14-8h12v6H56v-6zm0-8h12v6H56v-6zm14 8h12v6H70v-6zm0 8h12v6H70v-6zM14 24h12v6H14v-6zm14-8h12v6H28v-6zM14 8h12v6H14V8zM0 8h12v6H0V8z' fill='%23bc4f26' fill-opacity='0.4' fill-rule='evenodd'/%3E%3C/svg%3E")`}
+        headerBackground={`#7b2614 url("/theme/images/alternative-header-background.png")`}
       >
         <div className={classNames(styles.container, styles.centerChilds)}>
           <div className={classNames(styles.twoThird, styles.left)}>
-            <h2>Arbeit und Projekte</h2>
-            <p className={styles.subText}>Ein Ausschnitt</p>
-            <p>
-              Auf dieser Seite finden Sie Bilder einiger unserer Projekte und
-              Arbeiten. Neben fertigen Bäder und verzierten Wänden finden Sie
-              auch hin und wieder ein paar Baustellenfotos, um einen Einblock in
-              unsere Arbeitsweise zu bekommen. Des weiteren haben sich Bilder
-              einiger künstlischer Freizeitporjekte eingschlichen. Bei Interesse
-              oder Fragen zu den abgebildeten Objekten und Arbeiten können Sie
-              uns gerne eine Nachricht hinterlassen oder direkt anrufen, die
-              Telefonnummer finden Sie unter dem Reiter Kontakt.
-            </p>
+            <h2>Ein Ausschnitt</h2>
             <p>
               Die Bilder sind nach Name geordnet und können per Klick vergrößert
               werden.
