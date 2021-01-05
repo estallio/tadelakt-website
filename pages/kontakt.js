@@ -47,7 +47,7 @@ const Contact = () => (
         >
           <img src="/images/arbeit.png" />
           <h2>Anfragen</h2>
-          <p className={styles.subText}>Jederzeit für Sie erreichbar</p>
+          <p className={styles.subText}>Jederzeit erreichbar</p>
         </div>
         <div
           className={classNames(styles.icons, styles.twoThird, styles.right)}
