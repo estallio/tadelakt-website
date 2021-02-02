@@ -3,15 +3,7 @@ import { client, imageBuilder } from './sanity';
 export { imageBuilder };
 
 export const filterDrafts = (entries) => {
-  return entries.filter((entry) => {
-    for (const tempEntry of entries) {
-      if (tempEntry._id !== entry._id && tempEntry._id.endsWith(entry._id)) {
-        return false;
-      }
-    }
-
-    return true;
-  });
+  return entries.filter((entry) => !entry._id.startsWith('drafts.'));
 };
 
 export const fetchWork = async () => {
