@@ -22,6 +22,7 @@ export default {
     },
     {
       title: 'Bild',
+      description: 'Das Bild sollte nicht größer als 2 Megabyte groß sein. Wenn das der Fall ist, verkleinere das Foto zuerst.',
       name: 'image',
       type: 'image',
       /*
