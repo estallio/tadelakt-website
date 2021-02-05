@@ -54,7 +54,7 @@ const Lehmputz = ({ work }) => {
           <div className={classNames(styles.twoThird, styles.left)}>
             <h2>Lehmputz</h2>
             <p className={styles.subText}>
-              Feuchtigkeitsregulierend individuell gestaltbar
+              Feuchtigkeitsregulierend, individuell gestaltbar
             </p>
             <p>
               Lehm ist der älteste mineralische Baustoff der Menschheit.

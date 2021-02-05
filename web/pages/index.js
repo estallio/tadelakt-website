@@ -56,7 +56,7 @@ const Home = () => (
               </div>
               <div className={styles.text}>
                 <h3>
-                  Lehmputz - Feuchtigkeitsregulierend individuell gesatltbar
+                  Lehmputz - Feuchtigkeitsregulierend, individuell gesatltbar
                 </h3>
                 Lehm ist der älteste mineralische Baustoff der Menschheit.{' '}
                 <p className={styles.more}>Mehr erfahren...</p>
