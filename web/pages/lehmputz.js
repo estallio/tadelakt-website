@@ -53,7 +53,7 @@ const Lehmputz = ({ work }) => {
         <div className={classNames(styles.container, styles.centerChilds)}>
           <div className={classNames(styles.twoThird, styles.left)}>
             <h2>Lehmputz</h2>
-            <p className={styles.subText}>
+            <p className={styles.subHeading}>
               Feuchtigkeitsregulierend, individuell gestaltbar
             </p>
             <p>

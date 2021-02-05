@@ -53,7 +53,7 @@ const Tadelakt = ({ work }) => {
         <div className={classNames(styles.container, styles.centerChilds)}>
           <div className={classNames(styles.twoThird, styles.left)}>
             <h2>Tadelakt</h2>
-            <p className={styles.subText}>Kalkputztechnik aus Marokko</p>
+            <p className={styles.subHeading}>Kalkputztechnik aus Marokko</p>
             <p>
               Diese marokkanische Kalkputztechnik verbindet Ästhetik und
               Wirksamkeit. Aus leicht hydraulischem Kalkmörtel hergestellt und
