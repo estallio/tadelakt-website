@@ -1,7 +1,11 @@
+import React from 'react'
+import { BsImage } from 'react-icons/bs';
+
 export default {
   title: 'Arbeit',
   name: 'arbeit',
   type: 'document',
+  icon: <BsImage />,
   __experimental_actions: ['update', 'publish', 'create', 'delete'],
   initialValue: {
     showInWork: true,

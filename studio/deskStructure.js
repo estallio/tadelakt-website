@@ -1,8 +1,7 @@
 import S from '@sanity/desk-tool/structure-builder';
 
 export default () =>
-  S.list()
-  .title('Inhalte')
-  .items(
-    S.documentTypeListItems()
-  );
+  S.documentTypeList('arbeit')
+  .schemaType('arbeit')
+  .title('Arbeit')
+  .id('arbeit');
