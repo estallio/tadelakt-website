@@ -32,10 +32,7 @@ const Arbeit = ({ work }) => {
         <div className={classNames(styles.container, styles.centerChilds)}>
           <div className={classNames(styles.twoThird, styles.left)}>
             <h2>Ein Ausschnitt</h2>
-            <p>
-              Die Bilder sind nach Name geordnet und können per Klick vergrößert
-              werden.
-            </p>
+            <p>Die Bilder können per Klick vergrößert werden.</p>
           </div>
         </div>
         {isOpen && (

@@ -13,8 +13,6 @@ export const fetchWork = async () => {
     thumbnailUrl: entry.imageUrl + '?w=250&h=250&fit=crop&auto=format',
   }));
 
-  console.log(result);
-
   return {
     work: result,
   };
