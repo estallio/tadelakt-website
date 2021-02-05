@@ -2,14 +2,10 @@ import { client, imageBuilder } from './sanity';
 
 export { imageBuilder };
 
-export const filterDrafts = (entries) => {
-  return entries.filter((entry) => !entry._id.startsWith('drafts.'));
-};
-
 export const fetchWork = async () => {
-  const result = filterDrafts(
+  const result = (
     await client.fetch(
-      `*[_type == 'arbeit' && showInWork == true] | order(_createdAt desc) { _id, title, description, 'imageUrl': image.asset->url }`
+      `*[!(_id in path("drafts.**")) &&_type == 'arbeit' && showInWork == true] | order(_createdAt desc) { _id, title, description, 'imageUrl': image.asset->url }`
     )
   ).map((entry) => ({
     ...entry,
@@ -17,15 +13,17 @@ export const fetchWork = async () => {
     thumbnailUrl: entry.imageUrl + '?w=250&h=250&fit=crop&auto=format',
   }));
 
+  console.log(result);
+
   return {
     work: result,
   };
 };
 
 export const fetchTadelakt = async () => {
-  const result = filterDrafts(
+  const result = (
     await client.fetch(
-      `*[_type == 'arbeit' && showInTadelakt == true] | order(_createdAt desc) { _id, title, description, 'imageUrl': image.asset->url }`
+      `*[!(_id in path("drafts.**")) &&_type == 'arbeit' && showInTadelakt == true] | order(_createdAt desc) { _id, title, description, 'imageUrl': image.asset->url }`
     )
   ).map((entry) => ({
     ...entry,
@@ -39,9 +37,9 @@ export const fetchTadelakt = async () => {
 };
 
 export const fetchLehmputz = async () => {
-  const result = filterDrafts(
+  const result = (
     await client.fetch(
-      `*[_type == 'arbeit' && showInLehmputz == true] | order(_createdAt desc) { _id, title, description, 'imageUrl': image.asset->url }`
+      `*[!(_id in path("drafts.**")) &&_type == 'arbeit' && showInLehmputz == true] | order(_createdAt desc) { _id, title, description, 'imageUrl': image.asset->url }`
     )
   ).map((entry) => ({
     ...entry,
@@ -55,9 +53,9 @@ export const fetchLehmputz = async () => {
 };
 
 export const fetchHerstellungUndRestaurierung = async () => {
-  const result = filterDrafts(
+  const result = (
     await client.fetch(
-      `*[_type == 'arbeit' && showInHerstellungUndRestaurierung == true] | order(_createdAt desc) { _id, title, description, 'imageUrl': image.asset->url }`
+      `*[!(_id in path("drafts.**")) &&_type == 'arbeit' && showInHerstellungUndRestaurierung == true] | order(_createdAt desc) { _id, title, description, 'imageUrl': image.asset->url }`
     )
   ).map((entry) => ({
     ...entry,
