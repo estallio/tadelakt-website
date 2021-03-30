@@ -5,7 +5,7 @@ export default {
   title: 'Arbeit',
   name: 'arbeit',
   type: 'document',
-  icon: <BsImage />,
+  icon: BsImage,
   __experimental_actions: ['update', 'publish', 'create', 'delete'],
   initialValue: {
     showInWork: true,
