@@ -12,7 +12,10 @@ import Layout from '../components/Layout';
 import styles from './index.module.sass';
 
 export const getStaticProps = async () => {
-  return { props: await fetchWork() };
+  return {
+    props: await fetchWork(),
+    revalidate: 1,
+  };
 };
 
 const Arbeit = ({ work }) => {

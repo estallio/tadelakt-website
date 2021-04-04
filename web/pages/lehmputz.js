@@ -17,7 +17,10 @@ import Layout from '../components/Layout';
 import styles from './index.module.sass';
 
 export const getStaticProps = async () => {
-  return { props: await fetchLehmputz() };
+  return {
+    props: await fetchLehmputz(),
+    revalidate: 1,
+  };
 };
 
 const Lehmputz = ({ work }) => {

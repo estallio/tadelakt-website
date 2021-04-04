@@ -17,7 +17,10 @@ import Layout from '../components/Layout';
 import styles from './index.module.sass';
 
 export const getStaticProps = async () => {
-  return { props: await fetchHerstellungUndRestaurierung() };
+  return {
+    props: await fetchHerstellungUndRestaurierung(),
+    revalidate: 1,
+  };
 };
 
 const HerstellungUndRestaurierung = ({ work }) => {

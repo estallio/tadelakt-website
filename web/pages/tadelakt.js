@@ -17,7 +17,10 @@ import Layout from '../components/Layout';
 import styles from './index.module.sass';
 
 export const getStaticProps = async () => {
-  return { props: await fetchTadelakt() };
+  return {
+    props: await fetchTadelakt(),
+    revalidate: 1,
+  };
 };
 
 const Tadelakt = ({ work }) => {
