@@ -27,7 +27,7 @@ const Privacy = () => (
               <p>Florianigasse 5</p>
               <p>4943 Geinberg</p>
               <p>Email: manfred.wegenschimmel@gmail.com</p>
-              <h3><br>Website</h3>
+              <h3><br></br>Website</h3>
               <p>Die Nutzung unserer Website ist grundsätzlich ohne Angabe Ihrer personenbezogenen Daten
                   möglich. Erhoben werden lediglich die von Ihrem Internet-Provider und dem verwendeten
                   Browser mitgeteilten Angaben (IP-Adresse, Datum und Uhrzeit, Name der URL, Referrer-URL,
