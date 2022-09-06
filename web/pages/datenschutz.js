@@ -20,48 +20,53 @@ const Privacy = () => (
       <div className={classNames(styles.container)}>
         <h2>Erklärung zur Informationspflicht</h2>
         <p className={styles.subText}>(Datenschutzerklärung)</p>
-        <p>
-          Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen.
-          Wir verarbeiten Ihre Daten daher ausschließlich auf Grundlage der
-          gesetzlichen Bestimmungen (DSGVO, TKG 2003). In diesen
-          Datenschutzinformationen informieren wir Sie über die wichtigsten
-          Aspekte der Datenverarbeitung im Rahmen unserer Website. Beim Besuch
-          unserer Webseite wird Ihre IP-Adresse, Beginn und Ende der Sitzung für
-          die Dauer dieser Sitzung erfasst. Dies ist technisch bedingt und
-          stellt damit ein berechtigtes Interesse iSv Art 6 Abs 1 lit f DSGVO
-          dar. Soweit im Folgenden nichts anderes geregelt wird, werden diese
-          Daten von uns nicht weiterverarbeitet.
-        </p>
-        <p>
-          Kontakt mit uns Wenn Sie per Formular auf der Website oder per E-Mail
-          Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks
-          Bearbeitung der Anfrage und für den Fall von Anschlussfragen sechs
-          Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre
-          Einwilligung weiter.
-        </p>
-        <p>
-          Unsere Website verwendet so genannte Cookies. Dabei handelt es sich um
-          kleine Textdateien, die mit Hilfe des Browsers auf Ihrem Endgerät
-          abgelegt werden. Sie richten keinen Schaden an. Wir nutzen Cookies
-          dazu, unser Angebot nutzerfreundlich zu gestalten. Einige Cookies
-          bleiben auf Ihrem Endgerät gespeichert, bis Sie diese löschen. Sie
-          ermöglichen es uns, Ihren Browser beim nächsten Besuch
-          wiederzuerkennen. Wenn Sie dies nicht wünschen, so können Sie Ihren
-          Browser so einrichten, dass er Sie über das Setzen von Cookies
-          informiert und Sie dies nur im Einzelfall erlauben. Bei der
-          Deaktivierung von Cookies kann die Funktionalität unserer Website
-          eingeschränkt sein.
-        </p>
-        <p>
-          Ihnen stehen bezüglich Ihrer bei uns gespeicherten Daten grundsätzlich
-          die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung,
-          Datenübertragbarkeit, Widerruf und Widerspruch zu. Wenn Sie glauben,
-          dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht verstößt
-          oder Ihre datenschutzrechtlichen Ansprüche sonst in einer Weise
-          verletzt worden sind, können Sie sich bei uns oder der
-          Datenschutzbehörde beschweren. Sie finden mehrer Kontaktmöglichkeiten
-          auf der Kontaktseite.
-        </p>
+        <div>
+          <div>
+            <h3>Kontakt für Fragen und Anliegen zu Datenschutz</h3>
+              <p>Manfred Wegenschimmel</p>
+              <p>Florianigasse 5</p>
+              <p>4943 Geinberg</p>
+              <p>Email: manfred.wegenschimmel@gmail.com</p>
+              <h3><br>Website</h3>
+              <p>Die Nutzung unserer Website ist grundsätzlich ohne Angabe Ihrer personenbezogenen Daten
+                  möglich. Erhoben werden lediglich die von Ihrem Internet-Provider und dem verwendeten
+                  Browser mitgeteilten Angaben (IP-Adresse, Datum und Uhrzeit, Name der URL, Referrer-URL,
+                  Inhalt der Anforderung, HTTP-Status bzw. Zugriffsstatus, übertragene Datenmenge,
+                  verwendeter Browser, Betriebssystem, Zugriffsland, Gerätetyp, Browsersprache und Version
+                  des Browsers). Diese Daten werden von uns für die Dauer des Website-Besuchs gespeichert
+                  und eine Auswertung erfolgt dabei ausschließlich zu statistischen Zwecken unter Wahrung
+                  der Anonymität der einzelnen Nutzer. Andere personenbezogene Daten werden weder
+                  gespeichert, verarbeitet, noch verkauft. Anonymisierte Daten werden zudem in Logfiles
+                  für eine für das System relevante Zeit gespeichert. Die Verwendung dieser Daten hilft
+                  uns, einen reibungslosen Verbindungsaufbau und die Systemsicherheit und Stabilität
+                  unserer Website bereitzustellen und stellt deswegen ein berechtigtes Interesse gem.
+                  Artikel 6 Abs 1 lit f DSGVO für die Verarbeitung dar. Zudem können die oben angeführten
+                  Daten unter Umständen auf Servern im EU Ausland verarbeitet werden. Dies ist
+                  insbesondere dann der Fall, wenn Sie aus dem Ausland auf unsere Website zugreifen,
+                  unsere Infrastruktur in der EU gewartet wird oder ein ausländischer Server schneller auf
+                  Anfragen antwortet. Das Nutzen eines verteilten Systems auf allen Kontinenten bietet
+                  dabei viele Vorteile wie Ausfallsicherheit oder Zugriffszeitoptimierung und stellt ein
+                  berechtigtes Interesse dar. Selbstverständlich gilt der oben angeführten Umgang mit
+                  Ihren Daten auch für die verwendeten Server im EU Ausland. Nach dem Zugriff auf die
+                  Website und der Verarbeitung der oben angeführten Daten kann keine Verbindung mehr zu
+                  Ihnen oder Ihrer Person festgestellt werden und somit können wir auch keine
+                  Datenauskünfte oder -änderungen veranlassen. Dennoch wird hier explizit darauf
+                  hingewiesen, dass Sie das Recht haben auf Auskunft, Berichtigung, Sperrung, Löschung,
+                  Übertragung soweit möglich oder einem Widerruf einer erteilten Einwilligung sowie
+                  Widerspruch zur Verarbeitung der Daten. Des Weiteren ist es Ihnen möglich eine
+                  Beschwerde bei einer Aufsichtsbehörde einzubringen.</p>
+              <h3><strong>Cookies</strong></h3>
+              <p>Wir verwenden auf dieser Website keine Cookies.</p>
+              <h3><strong>Andere Daten (Kontakt mit uns)</strong></h3>
+              <p>Daten, die zur Kontaktaufnahme notwendig sind, werden abseits der Website in Form von
+                  Email- oder Telefonverkehr für die Dauer der Konversation oder zur Bearbeitung
+                  zukünftiger Anfragen aufbewahrt. Daten werden dabei nicht ohne Einwilligung
+                  veröffentlicht und nur an Sicherheitsbehörden und zuständige Gerichte weitergegeben,
+                  wenn es zu einer rechtswidrigen Nutzung kommt. Sollten Sie eine Löschung, Änderung oder
+                  Auskunft der gespeicherten Daten wünschen, kontaktieren Sie uns bitte unter den oben
+                  angeführten Kontaktdaten.</p>
+          </div>
+        </div>
       </div>
     </Layout>
   </>
