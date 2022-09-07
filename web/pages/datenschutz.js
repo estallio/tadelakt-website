@@ -27,7 +27,7 @@ const Privacy = () => (
               <p>Florianigasse 5</p>
               <p>4943 Geinberg</p>
               <p>Email: manfred.wegenschimmel@gmail.com</p>
-              <h3><br></br>Website</h3>
+              <h3></br>Website</h3>
               <p>Die Nutzung unserer Website ist grundsätzlich ohne Angabe Ihrer personenbezogenen Daten
                   möglich. Erhoben werden lediglich die von Ihrem Internet-Provider und dem verwendeten
                   Browser mitgeteilten Angaben (IP-Adresse, Datum und Uhrzeit, Name der URL, Referrer-URL,
@@ -50,7 +50,11 @@ const Privacy = () => (
                   Ihren Daten auch für die verwendeten Server im EU Ausland. Nach dem Zugriff auf die
                   Website und der Verarbeitung der oben angeführten Daten kann keine Verbindung mehr zu
                   Ihnen oder Ihrer Person festgestellt werden und somit können wir auch keine
-                  Datenauskünfte oder -änderungen veranlassen. Dennoch wird hier explizit darauf
+                  Datenauskünfte oder -änderungen veranlassen. Für das Betreiben der Onlinepräsenzen wird
+                  dabei die technische Infrastruktur der Firma Hetzner GmbH
+                  (https://www.hetzner.com/legal/terms-and-conditions,
+                  https://www.hetzner.com/legal/privacy-policy/) verwendet, mit der ein AV-Vertrag
+                  abgeschlossen wurde. Dennoch wird hier explizit darauf
                   hingewiesen, dass Sie das Recht haben auf Auskunft, Berichtigung, Sperrung, Löschung,
                   Übertragung soweit möglich oder einem Widerruf einer erteilten Einwilligung sowie
                   Widerspruch zur Verarbeitung der Daten. Des Weiteren ist es Ihnen möglich eine
